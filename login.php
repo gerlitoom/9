@@ -85,7 +85,7 @@
 		echo "räsi ".$password."<br>";
 		
 		//kutsun funktsiooni, et salvestada
-		signup($signupEmail, $password);
+		$User->signup($signupEmail, $password);
 		
 	}	
 	
