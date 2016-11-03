@@ -30,7 +30,7 @@
 		
 	}
 	
-	$notes = getAllNotes();
+	$Note->getAllNotes();
 	
 	//echo "<pre>";
 	//var_dump($notes);

@@ -47,7 +47,7 @@
 		
 	}
 	
-    $interests = getAllInterests();
+    $Interests->getAllInterests();
 	
 ?>
 <h1><a href="data.php"> < tagasi</a> Kasutaja leht</h1>
@@ -63,7 +63,7 @@
     
     $listHtml = "<ul>";
 	
-	foreach($interests as $i){
+	foreach($Interests as $i){
 		
 		
 		$listHtml .= "<li>".$i->interest."</li>";

@@ -1,7 +1,6 @@
 <?php
 	//edit.php
 	require("functions.php");
-	require("editFunctions.php");
 	
 	if(isset($_GET["delete"])){
 		deleteNote($_GET["id"]);
